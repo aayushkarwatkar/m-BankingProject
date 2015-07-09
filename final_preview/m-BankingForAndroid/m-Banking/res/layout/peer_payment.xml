@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    >
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   
+        
+    
+    <TextView
+        android:id="@+id/EnterDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Enter Date: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="9" 
+        />
+    <TextView
+        android:id="@+id/EnterAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Enter Amount: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakeAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="9" 
+        />
+    
+    
+    <TextView
+        android:id="@+id/EnterAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="Enter Account Number Of Peer: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakeAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:ems="9" 
+        />
+    
+     <TextView
+        android:id="@+id/EnterBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Enter Bank Of Peer: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakeBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:ems="9" 
+        />
+    
+     <TextView
+        android:id="@+id/EnterPeerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="Enter Name Of Peer: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakePeerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:ems="9" 
+        />
+
+    <TextView
+        android:id="@+id/EnterPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        android:text="Enter Pin: "
+        android:textSize="16sp" />
+    
+    <EditText
+        android:id="@+id/TakePin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:ems="9" 
+        android:inputType="textPassword"
+        
+        />
+
+    <ImageButton
+       	android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/arrow_right" />
+    
+   
+</RelativeLayout>
+</ScrollView>
